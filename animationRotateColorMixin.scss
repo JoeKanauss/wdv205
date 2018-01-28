@@ -1,0 +1,34 @@
+@mixin animationRotateColor {
+
+/*Animation-Name*/
+
+	-webkit-animation-name: $animationName; 
+	-ms-animation-name: $animationName;
+	-moz-animation-name: $animationName;
+	-o-animation-name: $animationName;
+	animation-name: $animationName;
+	
+/*Animation-Duration*/
+	
+	-webkit-animation-duration: $duration;
+	-ms-animation-duration: $duration;
+	-moz-animation-duration: $duration;
+	-o-animation-duration: $duration;
+	animation-duration: $duration;
+
+/*Animation-Iteration-Count*/
+	
+	-webkit-animation-iteration-count: $iterationCount;
+	-ms-animation-iteration-count: $iterationCount;
+	-moz-animation-iteration-count: $iterationCount;
+	-o-animation-iteration-count: $iterationCount;
+	animation-iteration-count: $iterationCount;
+
+/*Animation-Direction*/
+	
+	-webkit-animation-direction: $animationDirection;
+	-ms-animation-direction: $animationDirection;
+	-moz-animation-direction: $animationDirection;
+	-o-animation-direction: $animationDirection;
+	animation-direction: $animationDirection;
+}

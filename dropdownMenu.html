@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body {
+	background-color: #99cc00;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #739900;
+	
+}
+
+li {
+	float: left;
+}
+
+li a {
+	font-size: 2em;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #997300;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #739900;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 160px;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.dropdown-content a:hover {
+	background-color: #997300;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+<!--OTHER CSS-->
+
+
+
+img {
+	margin-bottom: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5em;
+	text-decoration: underline;
+	
+}
+
+h2 {
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+}
+
+.col1 {
+	width: 45%;
+	height: 30%;
+	background-color: #739900;
+	float: left;
+	padding: 0 20px;
+	line-height: 150%;
+}
+
+.col2 {
+	width: 45%;
+	height: 30%;
+	background-color: #739900;
+	float: right;
+	padding: 0 20px;
+	line-height: 150%;
+}
+
+footer {
+	margin: 20px;
+	padding-top: 30px;
+	clear: both;
+}
+</style>
+
+
+</head>
+<body>
+
+<img src="bear.png" alt="page banner" width= "100%"/>
+
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li class="dropdown">
+		<a href="#" class="dropbtn">Animals</a>
+		<div class="dropdown-content">
+			<a href="#">Cats</a>
+			<a href="#">Dogs</a>
+			<a href="#">Apes</a>
+			<a href="#">Bears</a>
+		</div>
+	</li>
+		<li class="dropdown">
+		<a href="#" class="dropbtn">Careers</a>
+		<div class="dropdown-content">
+			<a href="#">Doctor</a>
+			<a href="#">Plumber</a>
+			<a href="#">Architect</a>
+			<a href="#">Barrister</a>
+		</div>
+	</li>
+</ul>
+
+<h1>Bears and Barristers</h1>
+
+<div class="col1">
+<h2>Animals and Careers</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec cursus elit. Integer id varius metus. Duis sit amet mi eget velit efficitur posuere. Aliquam eu neque magna. Nulla ipsum lectus, rhoncus non faucibus nec, vulputate sit amet lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent imperdiet est et euismod pulvinar. Vestibulum fringilla ligula nisi, eu gravida lectus laoreet vitae. Aliquam erat volutpat. Etiam volutpat vel justo sit amet consequat. Phasellus ac nunc aliquet, maximus tortor sit amet, posuere nulla.</p>
+
+<p>Curabitur auctor auctor ante in mattis. Sed lobortis scelerisque libero, et euismod magna elementum id. Vestibulum ac urna ultricies, tempor felis sed, fermentum mauris. Nulla ultricies, est vitae viverra consectetur, justo purus convallis ex, et condimentum orci dolor vitae nulla. Aenean elementum a mi non imperdiet. Aenean a feugiat metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget elit nulla. Curabitur quam tellus, faucibus eget pharetra a, interdum in urna. Vivamus nec libero enim. Suspendisse imperdiet leo nibh, sed pretium nisl interdum eu. Sed dapibus leo maximus bibendum mattis. Nullam sed lectus sed ipsum pulvinar ultricies. Maecenas euismod vestibulum quam nec rhoncus. Proin posuere semper felis eget vehicula.</p>
+</div>
+
+<div class="col2">
+<h2>How You Can Help</h2>
+
+<p>Cras rhoncus erat vel ligula fringilla suscipit. Maecenas sed pulvinar quam, eget posuere nunc. Nulla et felis ligula. Phasellus fringilla placerat fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer eget luctus justo, quis euismod turpis. Vestibulum maximus, nisi eget placerat blandit, erat nisi tincidunt augue, at bibendum lectus risus quis quam. Maecenas turpis nisi, malesuada id eros quis, eleifend volutpat ipsum. Pellentesque aliquet tincidunt orci, id aliquet risus.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed bibendum, arcu eget faucibus venenatis, ligula purus ultricies erat, eget dapibus odio metus id mi. Ut pharetra sapien quis nisi tristique sagittis. Vivamus nec ex eget lectus bibendum euismod. In rhoncus arcu id sapien molestie, convallis maximus erat condimentum. Nunc sapien massa, facilisis ac nibh quis, tempor tincidunt orci. Integer facilisis, nibh sit amet laoreet venenatis, ligula nisl maximus leo, nec pellentesque orci lacus in dolor. Nullam quis ante ipsum. Duis accumsan aliquam aliquet.</p>
+</div>
+
+<footer>
+<p>Maecenas quam ligula, imperdiet fermentum ultrices sed, interdum at ipsum. Proin arcu eros, ullamcorper at nisi a, cursus interdum lectus. Sed mauris arcu, ultrices nec posuere quis, euismod sit amet ante. Pellentesque in nulla sed risus fermentum tempor. Praesent convallis at odio congue vulputate. Nullam non pretium risus, tempor lobortis nisi. Vivamus et tempor ipsum, id mollis enim. Pellentesque pharetra rutrum mollis. Duis porttitor risus non nibh euismod suscipit. Aliquam erat volutpat. In hac habitasse platea dictumst. Integer cursus libero a aliquet tempor.</p>
+</footer>
+
+</body>
+</html>

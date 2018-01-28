@@ -1,0 +1,140 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+<!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
+
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="ffpStyle.css">
+</head>
+
+<body>
+	<div class="row"> <!--Start Head Image Row -->
+	<p class="bannerImage"><img class="bannerImage" src="mcBanner.gif" alt="Maureen's Children Banner" /></p>
+	</div> <!--End Head Image Row -->
+	
+	<div class="row"> <!--Start Navigation -->
+		<ul class="vertical medium-horizontal menu">
+			<li class="title">MAUREEN'S CHILDREN</li>
+			<li><a href="ffpHome.html">Home</a></li>
+			<li><a href="ffpAbout.html">About</a></li>
+			<li><a href="ffpCourses.html">Offered Courses</a></li>
+			<li><a href="ffpGlossary.html">Glossary of Terms</a></li>
+			<li><a href="ffpContact.html" class="checked">Contact</a></li>
+		</ul>
+	</div> <!--End Navigation -->
+	
+	<div class="row"> <!--Start Row 1 -->
+		<h1>Contact Us</h1>
+		<p>Here at Maureen's Children, we know that being a witch in today's age is hard. We may have gained a few legal rights, but every day is still an uphill battle. We must contend with hatred from those outside of our community, and we must suffer through legal injustices.</p>
+		
+		<p class="contactInfoBottom">Maureen's Children invites you to contact us. Speak with us about troubles in your life, sign up for <a href="ffpCourses.html">offered classes</a>, ask questions, or seek out a personal counselor from your local center. Whatever the reason, a representative of Maureen's Children is always on hand to quickly and kindly respond to your messages.</p>
+	</div> <!--End Row 1 -->
+	
+	<div class="row"> <!--Start Row 2 -->
+		<div class="large-4 columns"> <!--Start R2:C1 -->
+			<h2>General Information</h2>
+			<p class="formInfo">Tell us a little about you, and keep in mind, here at Maureen's Children we respect your privacy. Tell us as much as or as little as you feel comfortable with.</p>
+			
+			<form id="form1" method="post" action="basicFormEmailer.php"> <!--Start R2:F1 -->
+				<div class="row"> <!--Start R2:F1:R1 -->
+					<div class="large-6 columns"> 
+						<label>Name
+						<input type="text" id="name" name="name" placeholder="Name, Initials, etc.">
+						</label>
+					</div>
+					<div class="large-6 columns">
+						<label>General Location
+						<input type="text" id="location" name="location" placeholder="State, Region, etc.">
+						</label>
+					</div>
+				</div> <!--ENd R2:F1:R1 -->
+				<div class="row"> <!--Start R2:F1:R2 -->
+					<div class="large-12 columns">
+						<label>Reason for Contacting
+						<textarea placeholder="Questions, Comments, Concerns, etc." id="reason" name="reason"></textarea>
+						</label>
+					</div>
+				</div> <!--End R2:F1:R2 -->
+		</div> <!--End R2:C1 -->
+		
+		<div class="large-4 columns"> <!--Start R2:C2 -->
+			<h2>Course Information</h2>
+			<p class="formInfo">If you are interested in any of our available <a href="ffpCourses.html">courses</a>, or would like to know what other courses we have to offer, please fill out the following information.</p>
+			
+				<div class="row"> <!--Start R2:F2:R1 -->
+					<div class="large-12 columns">
+						<label>Email
+						<input type="text" id="email" name="email" placeholder="samplemail@mail.com">
+						</label>
+					</div>
+				</div> <!--End R2:F2:R1 -->
+				
+				<div class="row"> <!--Start R2:F2:R2 -->
+					<fieldset class="large-12 columns">
+						<legend>Check the Courses You Are Interested In</legend>
+						<input type="checkbox" id="BasicWitch" name="BasicWitch"><label for="BasicWitch">What It Means to Be a Witch</label><br>
+						<input type="checkbox" id="Conduit" name="Conduit"><label for="Conduit">Finding the Conduit</label><br>
+						<input type="checkbox" id="Spells" name="Spells"><label for="Spells">Spells and Their Uses (Beginner)</label><br>
+						<input type="checkbox" id="Speaking" name="Speaking"><label for="Speaking">Public Speaking</label><br>
+						<input type="checkbox" id="Meditation" name="Meditation"><label for="Meditation">Magic Control and Meditation</label> <br>
+						<input type="checkbox" id="Defense" name="Defense"><label for="Defense">Magic As Self-Defense</label>
+					</fieldset>
+				</div> <!--End R2:F2:R2 -->	
+		</div> <!--End R2:C2 -->
+		<div class="large-4 columns"> <!--Start R2:C3 -->
+			<h2>Other Information</h2>
+			<p class="formInfo">Please share with us any other information you would like us to know. Ask more questions, give us your comments, share with us your concerns.</p>
+			
+
+				<div class="large-12 columns"> <!--Start R2:F3:R1 -->
+					<label>Any Other Information You'd Care to Share
+					<textarea id="additional" name="additional"></textarea>
+					</label>
+				</div> <!--End R2:F3:R2 -->
+				
+				<div class="row"> <!--Start R2:F3:R2 -->
+					<fieldset class="large-12 columns">
+						<input type="radio" id="News" name="News" value="yes"><label for="yNews">Yes, sign me up for the Maureen's Children Newsletter. (Email provided)</label><br>
+						<input type="radio" id="News" name="News" value="no"><label for="nNews">No, do not sign me up for the Maureen's Children Newsletter.</label>
+					</fieldset>
+				</div> <!--End R2:F3:R2 -->
+		</div>
+	</div> <!--End Row 2 -->
+	
+	<div class="row"> <!--Start Row 3 -->
+		<div class="large-12 columns"> <!--Start R3:C1 -->
+		<input type="submit" value="submit" class="submitButton">
+		</form> <!--End Form --> 
+		</div> <!--End R3:C1 -->
+	</div> <!--End Row 3 -->
+	
+	<div class="row"> <!--Start Row 4 -->	
+		<p class="thanks">Maureen's Children thanks you for your support and promises to support you! Together, the witch community can grow strong!</p>
+	</div> <!--End Row 4-->
+	
+	<footer class="row"> <!--Start Footer -->
+			<h3>MAUREEN'S CHILDREN</h3>
+		
+		<div class="row"> <!--Start Footer Row 2 -->
+			<div class="medium-4 large-4 columns"> <!--Start FR2:C1 -->
+				<h4>Phone:</h4>
+				<p>(765)-555-0108<br>A representative is always available.</p>
+			</div> <!--End FR2:C1 -->
+			
+			<div class="medium-4 large-4 columns" id="fMiddle"> <!--Start FR2:C2 -->
+				<p>Maureen's Children know that discretion is key for members of our community. Your privacy will be respected in any form of communication. Tell us only what you want to share.</p>
+			</div> <!--End FR2:C2 -->
+			
+			<div class="medium-4 large-4 columns"> <!--Start FR2:C3 -->
+				<h4>National HQ:</h4>
+				<p>108 Capitol Arch Center<br>Cavanaugh, IN 46013</p>
+			</div> <!--End FR2:C3 -->
+		</div> <!--End Footer Row 2 -->
+	</footer <!--End Footer -->
+
+</body>
+</html>

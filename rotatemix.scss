@@ -1,0 +1,13 @@
+$deg: 90deg;
+
+@import 'transformmixin';
+
+div.mixin{
+		width: 200px;
+	height: 50px;
+	background-color: #9999ff;
+	border: 3px solid #6666ff;
+}
+div.mixin:hover {
+	@include rotate-transform($deg)
+}

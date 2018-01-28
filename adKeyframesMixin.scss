@@ -1,0 +1,63 @@
+@mixin adKeyframes {
+
+@-webkit-keyframes advert
+{
+	0%{left: -400px; top: 200px;}
+	10%{left: 550px; top: 200px;}
+	20%{left: 550px; top: 200px;}
+	30%{left: 550px; top: 200px;}
+	40%{left: 550px; top: 200px;}
+	50%{left: 550px; top: 200px;}
+	60%{left: 550px; top: 200px;}
+	100%{left: 2000px; top: 200px;}
+}  
+
+@-ms-keyframes advert 
+{
+	0%{left: -400px; top: 200px;}
+	10%{left: 550px; top: 200px;}
+	20%{left: 550px; top: 200px;}
+	30%{left: 550px; top: 200px;}
+	40%{left: 550px; top: 200px;}
+	50%{left: 550px; top: 200px;}
+	60%{left: 550px; top: 200px;}
+	100%{left: 2000px; top: 200px;}
+}
+
+@-moz-keyframes advert
+{
+	0%{left: -400px; top: 200px;}
+	10%{left: 550px; top: 200px;}
+	20%{left: 550px; top: 200px;}
+	30%{left: 550px; top: 200px;}
+	40%{left: 550px; top: 200px;}
+	50%{left: 550px; top: 200px;}
+	60%{left: 550px; top: 200px;}
+	100%{left: 2000px; top: 200px;}
+}
+
+@-o-keyframes advert
+{
+	0%{left: -400px; top: 200px;}
+	10%{left: 550px; top: 200px;}
+	20%{left: 550px; top: 200px;}
+	30%{left: 550px; top: 200px;}
+	40%{left: 550px; top: 200px;}
+	50%{left: 550px; top: 200px;}
+	60%{left: 550px; top: 200px;}
+	100%{left: 2000px; top: 200px;}
+} 
+
+@keyframes advert
+{
+	0%{left: -400px; top: 200px;}
+	10%{left: 550px; top: 200px;}
+	20%{left: 550px; top: 200px;}
+	30%{left: 550px; top: 200px;}
+	40%{left: 550px; top: 200px;}
+	50%{left: 550px; top: 200px;}
+	60%{left: 550px; top: 200px;}
+	100%{left: 2000px; top: 200px;}
+}
+
+}

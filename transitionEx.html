@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.widthHeight {
+	width: 200px;
+	height: 50px;
+	background-color: #9999ff;
+	border: 3px solid #6666ff;
+	-webkit-transition: width 2s, height 2s;
+	-ms-transition: width 2s, height 2s;
+	-moz-transition: width 2s, height 2s; 
+	-o-transition: width 2s, height 2s;
+	transition: width 2s, height 2s;
+	}
+div.widthHeight:hover {
+	width: 400px;
+	height: 100px;
+	}
+	
+div.heightFont {
+	width: 200px;
+	height: 50px;
+	background-color: #cc99ff;
+	border: 3px solid #9933ff;
+	-webkit-transition: height 2s, font-size 2s;
+	-ms-transition: height 2s, font-size 2s;
+	-moz-transition: height 2s, font-size 2s; 
+	-o-transition: height 2s, font-size 2s;
+	transition: height 2s, font-size 2s;
+	}
+div.heightFont:hover {
+	height: 100px;
+	font-size: 1.5em;
+}
+
+div.colorBorder {
+	width: 200px;
+	height: 50px;
+	background-color: #e6b3cc;
+	border: 3px solid #cc6697;
+	-webkit-transition: border 2s, background-color 4s;
+	-ms-transition: border 2s, background-color 4s;
+	-moz-transition: border 2s, background-color 4s; 
+	-o-transition: border 2s, background-color 4s;
+	transition: border 2s, background-color 4s;
+	}
+div.colorBorder:hover {
+	border: 10px dashed#00b300;
+	background-color: #66ff66;
+	}
+
+</style>	
+</head>
+<body>
+<h3>Demonstrate CSS3 Transitions</h3>
+
+<div class="widthHeight">
+The width and the height of this will change!
+</div>
+
+<div class ="heightFont">
+The height and font size of this will change!
+</div>
+
+<div class = "colorBorder">
+The color and border of this will change!
+</div>
+
+</body>
+</html>

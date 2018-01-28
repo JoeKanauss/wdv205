@@ -1,0 +1,498 @@
+@media only screen {
+  #foot {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 0; }
+
+  .image {
+    text-align: center;
+    margin-top: 5px; }
+
+  @-webkit-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-moz-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-o-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-ms-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  a img {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    -webkit-animation: logo 2s 1;
+    -o-animation: logo 2s 1;
+    -ms-animation: logo 2s 1;
+    animation: logo 2s 1; }
+
+  a img:hover {
+    border: 6px double black; }
+
+  nav ul {
+    text-align: center; }
+
+  nav ul li {
+    list-style: none;
+    display: block;
+    margin: 10px;
+    margin-left: 30%;
+    border: 5px solid darkgray;
+    border-radius: 50px;
+    width: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: gray;
+    border: none; }
+
+  nav ul li:hover {
+    background-color: white; }
+
+  nav ul li a {
+    color: white;
+    font-weight: bold; }
+
+  nav ul li a:hover {
+    color: #0036ff; } }
+@media only screen and (min-width: 40.063em) {
+  #foot {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 0; }
+
+  .image {
+    text-align: center;
+    margin-top: 5px; }
+
+  @-webkit-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-moz-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-o-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-ms-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  a img {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    -webkit-animation: logo 2s 1;
+    -o-animation: logo 2s 1;
+    -ms-animation: logo 2s 1;
+    animation: logo 2s 1; }
+
+  a img:hover {
+    border: 6px double black; }
+
+  nav ul {
+    text-align: center; }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    border: 5px solid darkgray;
+    border-radius: 50px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: gray;
+    -webkit-transition: width 0.5s, padding-left 0.5s;
+    -moz-transition: width 0.5s, padding-left 0.5s;
+    -o-transition: width 0.5s, padding-left 0.5s;
+    -ms-transition: width 0.5s, padding-left 0.5s;
+    transition: width 0.5s, padding-left 0.5s; }
+
+  nav ul li:hover {
+    width: 200px;
+    padding-left: 120px;
+    background-color: white; }
+
+  nav ul li a {
+    color: gray;
+    font-weight: bold; }
+
+  nav ul li a:hover {
+    color: #0036ff; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  #foot {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 0; }
+
+  .image {
+    text-align: center;
+    margin-top: 5px; }
+
+  @-webkit-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-moz-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-o-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-ms-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  a img {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    -webkit-animation: logo 2s 1;
+    -o-animation: logo 2s 1;
+    -ms-animation: logo 2s 1;
+    animation: logo 2s 1; }
+
+  a img:hover {
+    border: 6px double black; }
+
+  nav ul {
+    text-align: center; }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    border: 5px solid darkgray;
+    border-radius: 50px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: gray;
+    -webkit-transition: width 0.5s, padding-left 0.5s;
+    -moz-transition: width 0.5s, padding-left 0.5s;
+    -o-transition: width 0.5s, padding-left 0.5s;
+    -ms-transition: width 0.5s, padding-left 0.5s;
+    transition: width 0.5s, padding-left 0.5s; }
+
+  nav ul li:hover {
+    width: 200px;
+    padding-left: 120px;
+    background-color: white; }
+
+  nav ul li a {
+    color: gray;
+    font-weight: bold; }
+
+  nav ul li a:hover {
+    color: #0036ff; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  #foot {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 0; }
+
+  .image {
+    text-align: center;
+    margin-top: 5px; }
+
+  @-webkit-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-moz-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-o-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-ms-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  a img {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    -webkit-animation: logo 2s 1;
+    -o-animation: logo 2s 1;
+    -ms-animation: logo 2s 1;
+    animation: logo 2s 1; }
+
+  a img:hover {
+    border: 6px double black; }
+
+  nav ul {
+    text-align: center; }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    border: 5px solid darkgray;
+    border-radius: 50px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: gray;
+    -webkit-transition: width 0.5s, padding-left 0.5s;
+    -moz-transition: width 0.5s, padding-left 0.5s;
+    -o-transition: width 0.5s, padding-left 0.5s;
+    -ms-transition: width 0.5s, padding-left 0.5s;
+    transition: width 0.5s, padding-left 0.5s; }
+
+  nav ul li:hover {
+    width: 200px;
+    padding-left: 120px;
+    background-color: white; }
+
+  nav ul li a {
+    color: gray;
+    font-weight: bold; }
+
+  nav ul li a:hover {
+    color: #0036ff; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  #foot {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 0; }
+
+  .image {
+    text-align: center;
+    margin-top: 5px; }
+
+  @-webkit-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-moz-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-o-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @-ms-keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  @keyframes logo {
+    0% {
+      width: 0%;
+      height: 0%;
+      border: none; }
+    100% {
+      width: 100%;
+      height: 100%;
+      border: 3px solid black; } }
+  a img {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    -webkit-animation: logo 2s 1;
+    -o-animation: logo 2s 1;
+    -ms-animation: logo 2s 1;
+    animation: logo 2s 1; }
+
+  nav ul {
+    text-align: center; }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    border: 5px solid darkgray;
+    border-radius: 50px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: gray;
+    -webkit-transition: width 0.5s, padding-left 0.5s;
+    -moz-transition: width 0.5s, padding-left 0.5s;
+    -o-transition: width 0.5s, padding-left 0.5s;
+    -ms-transition: width 0.5s, padding-left 0.5s;
+    transition: width 0.5s, padding-left 0.5s; }
+
+  nav ul li:hover {
+    width: 200px;
+    padding-left: 120px;
+    background-color: white; }
+
+  nav ul li a {
+    color: gray;
+    font-weight: bold; }
+
+  nav ul li a:hover {
+    color: #0036ff; } }
+/* min-width 1921px, xxlarge screens */
+
+/*# sourceMappingURL=portfolioStyle.css.map */

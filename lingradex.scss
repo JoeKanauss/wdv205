@@ -1,0 +1,23 @@
+$top:	#666600;
+$bottom: 	#660000;
+
+@import 'lingradmix';
+
+body{ @include linear-gradient($top, $bottom);}
+
+#boxshadow {
+	width: 300px;
+	padding: 10px;
+	background-color :#e6b3ff;
+	box-shadow: 5px 5px #cc66ff;}
+	
+.textshadow {
+	font-size: 2em;
+	color: #8a8a5c;
+	text-shadow: 3px 3px 3px #33ff33;}
+img {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);}
+	
+
+

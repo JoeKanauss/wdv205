@@ -1,0 +1,8 @@
+@mixin adAnimation 
+{
+	-webkit-animation: /*name*/advert /*duration*/11s /*fill-mode*/forwards;
+	-ms-animation: /*name*/advert /*duration*/11s /*fill-mode*/forwards;
+	-moz-animation: /*name*/advert /*duration*/11s /*fill-mode*/forwards; 
+	-o-animation: /*name*/advert /*duration*/11s /*fill-mode*/forwards;
+	animation: /*name*/advert /*duration*/11s /*fill-mode*/forwards;
+}

@@ -1,0 +1,86 @@
+@mixin keyframesRotateColor{
+
+@-webkit-keyframes RotateColor
+	{
+	from {background-color: $bc1; 
+		-webkit-transform: rotate($rdeg1);
+		-ms-transform: rotate($rdeg1);
+		-moz-transform: rotate($rdeg1);
+		-o-transform: rotate($rdeg1);
+		transform: rotate($rdeg1);}
+	to {background-color: $bc2; 
+		-webkit-transform:  rotate($rdeg2);
+		-ms-transform:  rotate($rdeg2);
+		-moz-transform:  rotate($rdeg2);
+		-o-transform:  rotate($rdeg2);
+		transform: rotate($rdeg2);}
+	}
+	
+@-ms-keyframes RotateColor
+	
+	{
+	from {background-color: $bc1; 
+		-webkit-transform: rotate($rdeg1);
+		-ms-transform: rotate($rdeg1);
+		-moz-transform: rotate($rdeg1);
+		-o-transform: rotate($rdeg1);
+		transform: rotate($rdeg1);}
+	to {background-color: $bc2; 
+		-webkit-transform:  rotate($rdeg2);
+		-ms-transform:  rotate($rdeg2);
+		-moz-transform:  rotate($rdeg2);
+		-o-transform:  rotate($rdeg2);
+		transform: rotate($rdeg2);}
+	}
+
+@-moz-keyframes RotateColor
+	
+	{
+	from {background-color: $bc1; 
+		-webkit-transform: rotate($rdeg1);
+		-ms-transform: rotate($rdeg1);
+		-moz-transform: rotate($rdeg1);
+		-o-transform: rotate($rdeg1);
+		transform: rotate($rdeg1);}
+	to {background-color: $bc2; 
+		-webkit-transform:  rotate($rdeg2);
+		-ms-transform:  rotate($rdeg2);
+		-moz-transform:  rotate($rdeg2);
+		-o-transform:  rotate($rdeg2);
+		transform: rotate($rdeg2);}
+	}
+	
+@-o-keyframes RotateColor
+
+	{
+	from {background-color: $bc1; 
+		-webkit-transform: rotate($rdeg1);
+		-ms-transform: rotate($rdeg1);
+		-moz-transform: rotate($rdeg1);
+		-o-transform: rotate($rdeg1);
+		transform: rotate($rdeg1);}
+	to {background-color: $bc2; 
+		-webkit-transform:  rotate($rdeg2);
+		-ms-transform:  rotate($rdeg2);
+		-moz-transform:  rotate($rdeg2);
+		-o-transform:  rotate($rdeg2);
+		transform: rotate($rdeg2);}
+	}
+
+@keyframes RotateColor
+
+	{
+	from {background-color: $bc1; 
+		-webkit-transform: rotate($rdeg1);
+		-ms-transform: rotate($rdeg1);
+		-moz-transform: rotate($rdeg1);
+		-o-transform: rotate($rdeg1);
+		transform: rotate($rdeg1);}
+	to {background-color: $bc2; 
+		-webkit-transform:  rotate($rdeg2);
+		-ms-transform:  rotate($rdeg2);
+		-moz-transform:  rotate($rdeg2);
+		-o-transform:  rotate($rdeg2);
+		transform: rotate($rdeg2);}
+	}
+}

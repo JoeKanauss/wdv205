@@ -1,0 +1,241 @@
+/* EXTRA CSS FOR FOUNDATION FRAMEWORKS PROJECT */
+
+body
+{
+	font-family: serif;
+	background-color: #809933;
+}
+
+a
+{
+	font-weight: bold;
+	color: #603020;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	font-size: 1.35em;
+	color: #603020;
+}
+
+img
+{
+	border: solid 5px #603020;
+}
+
+
+.bannerImage
+{
+	text-align: center;
+	margin: 0;
+	border: none;
+}
+
+.imageNoBorder
+{
+	border: none;
+	margin: 0 auto;
+}
+
+/* NAVIGATION BAR CSS */
+
+.vertical.medium-horizontal.menu
+{
+	background-color: #86432d;
+	padding: 20px;
+	margin-bottom: 25px;
+	border-bottom: solid 5px #603020;
+	
+}
+
+.vertical.medium-horizontal.menu li a
+{
+	color: white;
+	
+	text-align: center;
+}
+
+.vertical.medium-horizontal.menu li a:hover
+{
+	color: #809933;
+	background-color: #603020;
+	font-size: 1em;
+
+}
+
+li.title
+{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.vertical.medium-horizontal.menu li a.checked
+{
+	color: #809933;
+	border: solid 2px #603020;
+	font-weight: bold;
+}
+
+/* ABOUT PAGE CSS */
+
+p.image
+{
+	text-align: center;
+	padding: 20px;
+}
+
+
+#about
+{
+	text-align: justify;
+}
+
+h1
+{
+	font-family: serif;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #603020;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*OFFERED COURSES CSS*/
+
+td
+{
+	background-color: #d9e6b3;
+	border: solid 2px #603020;
+	text-align: center;
+}
+
+
+tr.head td
+{
+	background-color: #dfaf9f;
+	border: solid 2px #603020;
+	text-align: center;
+	font-weight: bold;
+}
+
+td img
+{	
+	margin-top: 20px;
+}
+
+.courseLevel
+{
+	color: #603020;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/*GLOSSARY OF TERMS CSS*/
+
+dl
+{
+	background-color: #d9e6b3;
+	padding-bottom: 20px;
+}
+
+dl.hidden
+{
+	padding-bottom: 0;
+}
+
+dt
+{
+	background-color: #dfaf9f;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+dd
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+/*CONTACT CSS */
+
+p.contactInfoBottom
+{
+	border-bottom: solid 3px #603020;
+	padding-bottom: 20px;
+}
+
+h2
+{
+	font-family: serif;
+	text-align: center;
+}
+
+p.formInfo
+{
+	text-align: center;
+}
+
+form
+{
+	text-align: center;
+}
+
+fieldset
+{
+	text-align: left;
+}
+
+fieldset label
+{
+	font-weight: bold;
+}
+
+.submitButton
+{
+	margin: auto;
+	display: block;
+}
+
+.thanks
+{
+	text-align: center;
+}
+/* FOOTER CSS */
+
+footer 
+{
+	text-align: center;
+	background-color: #86432d;
+	margin-top: 20px;
+	border-top: solid 5px #603020;
+	font-weight: bold;
+}
+
+footer h3
+{
+	font-family: serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+footer h4
+{
+	font-family: serif;
+	color: white;
+}
+
+#fMiddle
+{
+	padding-left: 40px;
+	padding-right: 20px;
+}

@@ -1,0 +1,105 @@
+@-webkit-keyframes RotateColor {
+  from {
+    background-color: #99cc00;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    background-color: #00cc66;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); } }
+@-ms-keyframes RotateColor {
+  from {
+    background-color: #99cc00;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    background-color: #00cc66;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); } }
+@-moz-keyframes RotateColor {
+  from {
+    background-color: #99cc00;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    background-color: #00cc66;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); } }
+@-o-keyframes RotateColor {
+  from {
+    background-color: #99cc00;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    background-color: #00cc66;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); } }
+@keyframes RotateColor {
+  from {
+    background-color: #99cc00;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    background-color: #00cc66;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); } }
+div {
+  width: 200px;
+  height: 100px;
+  background-color: #99cc00;
+  /*Animation-Name*/
+  -webkit-animation-name: RotateColor;
+  -ms-animation-name: RotateColor;
+  -moz-animation-name: RotateColor;
+  -o-animation-name: RotateColor;
+  animation-name: RotateColor;
+  /*Animation-Duration*/
+  -webkit-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  /*Animation-Iteration-Count*/
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /*Animation-Direction*/
+  -webkit-animation-direction: alternate;
+  -ms-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate; }
+
+/*# sourceMappingURL=RotateColorMixinStyle.css.map */

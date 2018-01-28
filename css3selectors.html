@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input:in-range {
+	background-color: #ff99ff;}
+	
+input:out-of-range {
+	background-color: #99ff99;}
+	
+:target {
+	font-size: 30pt;
+	color: #ff0066;}
+	
+:checked {
+	width: 30px;
+	height: 30px;
+	-moz-transform: scale(2);} !-- width/height do not change size of checkbox in Firefox. Found this as suggestion on StackOverflow--! 
+
+</style>
+</head>
+<body>
+<h1>CSS3 Selectors</h1>
+<p><strong>Element1~Element2:</strong> This selector connects to instances of Element2 that are preceded by Element1.</p>
+<p><strong>[Attribute^=value]:</strong> This selector connects to the attributes with values that begin with a specific value.</p> 
+<p><strong>:In-Range:</strong> This selector connects to the elements that are within that element&apos;s set range (such as inputs).</p>
+
+<input type="number" min="1" max="3" value="pick a number">
+
+<p><strong>:Out-of-Range:</strong> This selector connects to the elements that are outside that element&apos;s set range (such as inputs).</p>
+<p><strong>:Checked:</strong> This selector connects to input and option elements that are checked.</p>
+
+<form action="">
+<input type="checkbox" checked="checked" value="john">John<br>
+<input type="checkbox" value="Grippy">Grippy
+</form>
+
+<p><strong>:Last-Child:</strong> This selector connects to the last child of a specified element.</p>
+<p><strong>:Last-of-Type:</strong> This selector connects to the specified element that is the last of its type.</p>
+<p><strong>:Not( ):</strong> This selector is connected to all elements that are not the specified element.</p>
+<p><strong>:Target:</strong> This selector is connected to same-document links (example: #blue links to id=&ldquo;blue&rdquo;).</p>
+
+<p><a href="#humble">Where did Humble Tim go?</a></p>
+<p><a href="#pity">Where did Pitiful Phil go?</a></p> 
+
+<p id="humble">Humble Tim went to the gym.</p>
+<p id="pity">Pitiful Phil ran down the hill.</p>
+
+<p><strong>:Enabled:</strong> This selector is connected to enabled elements.</p>
+
+</body>
+</html>

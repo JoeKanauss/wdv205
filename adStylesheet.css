@@ -1,0 +1,160 @@
+@-webkit-keyframes advert {
+  0% {
+    left: -400px;
+    top: 200px; }
+  10% {
+    left: 550px;
+    top: 200px; }
+  20% {
+    left: 550px;
+    top: 200px; }
+  30% {
+    left: 550px;
+    top: 200px; }
+  40% {
+    left: 550px;
+    top: 200px; }
+  50% {
+    left: 550px;
+    top: 200px; }
+  60% {
+    left: 550px;
+    top: 200px; }
+  100% {
+    left: 2000px;
+    top: 200px; } }
+@-ms-keyframes advert {
+  0% {
+    left: -400px;
+    top: 200px; }
+  10% {
+    left: 550px;
+    top: 200px; }
+  20% {
+    left: 550px;
+    top: 200px; }
+  30% {
+    left: 550px;
+    top: 200px; }
+  40% {
+    left: 550px;
+    top: 200px; }
+  50% {
+    left: 550px;
+    top: 200px; }
+  60% {
+    left: 550px;
+    top: 200px; }
+  100% {
+    left: 2000px;
+    top: 200px; } }
+@-moz-keyframes advert {
+  0% {
+    left: -400px;
+    top: 200px; }
+  10% {
+    left: 550px;
+    top: 200px; }
+  20% {
+    left: 550px;
+    top: 200px; }
+  30% {
+    left: 550px;
+    top: 200px; }
+  40% {
+    left: 550px;
+    top: 200px; }
+  50% {
+    left: 550px;
+    top: 200px; }
+  60% {
+    left: 550px;
+    top: 200px; }
+  100% {
+    left: 2000px;
+    top: 200px; } }
+@-o-keyframes advert {
+  0% {
+    left: -400px;
+    top: 200px; }
+  10% {
+    left: 550px;
+    top: 200px; }
+  20% {
+    left: 550px;
+    top: 200px; }
+  30% {
+    left: 550px;
+    top: 200px; }
+  40% {
+    left: 550px;
+    top: 200px; }
+  50% {
+    left: 550px;
+    top: 200px; }
+  60% {
+    left: 550px;
+    top: 200px; }
+  100% {
+    left: 2000px;
+    top: 200px; } }
+@keyframes advert {
+  0% {
+    left: -400px;
+    top: 200px; }
+  10% {
+    left: 550px;
+    top: 200px; }
+  20% {
+    left: 550px;
+    top: 200px; }
+  30% {
+    left: 550px;
+    top: 200px; }
+  40% {
+    left: 550px;
+    top: 200px; }
+  50% {
+    left: 550px;
+    top: 200px; }
+  60% {
+    left: 550px;
+    top: 200px; }
+  100% {
+    left: 2000px;
+    top: 200px; } }
+div {
+  width: 400px;
+  height: 300px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  background-color: #cc6666;
+  border: 10px groove #bf4040;
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  -webkit-animation: advert 11s forwards;
+  -ms-animation: advert 11s forwards;
+  -moz-animation: advert 11s forwards;
+  -o-animation: advert 11s forwards;
+  animation: advert 11s forwards;
+  z-index: 1; }
+
+img.rocket {
+  -webkit-transition: 2s linear;
+  -ms-transition: 2s linear;
+  -moz-transition: 2s linear;
+  -o-transition: 2s linear;
+  transition: 2s linear; }
+
+img.rocket:hover {
+  -webkit-transform: scale(2, 2) rotate(900deg);
+  -ms-transform: scale(2, 2) rotate(900deg);
+  -moz-transform: scale(2, 2) rotate(900deg);
+  -o-transform: scale(2, 2) rotate(900deg);
+  transform: scale(2, 2) rotate(900deg); }
+
+body {
+  background-color: #df9f9f; }
+
+/*# sourceMappingURL=adStylesheet.css.map */

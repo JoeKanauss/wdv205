@@ -1,0 +1,28 @@
+body {
+  background: #666600;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#666600, #660000);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#666600, #660000);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#666600, #660000);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#666600, #660000);
+  /* Standard syntax */ }
+
+#boxshadow {
+  width: 300px;
+  padding: 10px;
+  background-color: #e6b3ff;
+  box-shadow: 5px 5px #cc66ff; }
+
+.textshadow {
+  font-size: 2em;
+  color: #8a8a5c;
+  text-shadow: 3px 3px 3px #33ff33; }
+
+img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%); }
+
+/*# sourceMappingURL=ppex.css.map */

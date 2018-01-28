@@ -1,0 +1,72 @@
+/*Phone Size Style*/
+@media screen and (max-width: 480px)
+{
+#container 
+{
+	width: 380px;
+	background-color: #99ffcc;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#header
+{
+	width: 380px;
+	text-align: center;
+}
+
+#nav
+{
+	width: 380px;
+	text-align: center;
+}
+
+#nav li
+{
+	display: inline-block;
+	padding: 5px;
+	background-color: #33ff99;
+}
+
+#nav li:hover
+{
+	background-color: #b3ffd9;
+	text-decoration: underline;
+}
+
+#colOne
+{
+	width: 380px;
+	text-align: justify;
+	
+}
+
+#colOne h1
+{
+	text-align: center;
+}
+
+#colTwo
+{
+	width: 380px;
+	text-align: justify;
+}
+
+#colTwo h1
+{
+	text-align: center;
+}
+
+img
+{
+	display: block;
+	margin: 0 auto;
+}
+
+#footer
+{
+	width: 380px;
+	text-align: center;
+	clear: both;
+}
+}

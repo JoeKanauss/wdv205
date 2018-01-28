@@ -1,0 +1,7 @@
+@mixin widthHeight-transition{
+	-webkit-transition: width $w, height $h;
+	-ms-transition: width $w, height $h;
+	-moz-transition: width $w, height $h; 
+	-o-transition: width $w, height $h;
+	transition: width $w, height $h;
+}

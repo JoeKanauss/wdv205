@@ -1,0 +1,238 @@
+/*Bootstrap Project Stylesheet*/
+
+ul li
+{
+	background-color: #ffe6cc;
+	font-weight: bold;
+}
+
+ul li a
+{
+	color: black;
+}
+
+h4
+{
+	text-align: center;
+}
+
+ul.nav a:hover
+{
+	background-color: #ffcc99;
+	color: black;
+}
+
+#bannerRow
+{
+	background-color: #ffcc99;
+}
+
+#banner
+{
+	margin: 0 auto;
+}
+
+#footer
+{
+	background-color: #7092be;
+	margin-top: 50px;
+}
+
+#footer a
+{
+	font-weight: bold;
+	color: #ffcc99;
+}
+
+#footer h4
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #ffcc99;
+	text-align: center;
+}
+
+#footer p
+{
+	text-align: center;
+}
+
+h1
+{
+	padding-top: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	color: #7092be;
+}
+
+p
+{
+	text-align: center;
+}
+
+figure
+{
+	margin: 20px;
+	padding: 10px;
+	border: solid 10px #ffcc99;
+	text-align: center;
+}
+
+#r3c1
+{
+	margin-top: 20px;
+	padding-bottom: 30px;
+	background-color: #ffe6cc;
+}
+
+#happyImg
+{
+	margin: 0 auto;
+	border: solid 5px #ffcc99;
+	padding: 3px;
+}
+	
+#r3c3
+{
+	margin-top: 20px;
+	padding-bottom: 30px;
+	background-color: #ffe6cc;
+}
+
+#callImage
+{
+	margin: 0 auto;
+	border: solid 5px #ffcc99;
+	padding: 3px;
+}
+
+.callHead
+{
+	text-align: center;
+	font-weight: bold;
+	color: #7092be;
+}
+
+#form
+{
+	text-align: center;
+}
+
+#name
+{
+	background-color: #ffcc99;
+	
+	
+}
+
+.form-group
+{
+	text-align: center;
+}
+
+#email
+{
+	background-color: #7092be;
+	color: white;
+}
+
+#email::-webkit-input-placeholder
+{
+	color: white;
+}
+
+#email::-moz-placeholder
+{
+	color: white;
+}
+
+#email::-ms-input-placeholder
+{
+	color: white;
+}
+
+#email:-moz-placeholder
+{
+	color: white;
+}
+
+#textarea
+{
+	background-color: #ffe6cc;
+}
+
+p.submitTop 
+{
+	padding-top: 40px;
+}
+
+p.submitBottom
+{
+	padding-bottom: 40px;
+}
+
+.menuTop
+{
+	background-color: #ffcc99;
+	text-decoration: none;
+	padding-top: 2px;
+}
+
+th
+{
+	text-align: center;
+}
+
+td
+{
+	text-align: center;
+}
+
+.item
+{
+	background-color: #ffcc99;
+}
+
+.item2
+{
+	background-color: #7092be;
+}
+
+.stripe
+{
+	background-color: #ffe6cc;
+}
+
+.stripe2
+{
+	background-color: #84a1c8;
+}
+
+#row5menu
+{
+	border-top: solid 5px #7092be;
+}
+
+#menuImg
+{
+	margin: 0 auto;
+	margin-top: 30px;
+	border: solid 5px #ffcc99;
+	padding: 3px;
+}
+
+.homeSlogan
+{
+	text-align: center;
+	text-decoration: none;
+	font-size: 5em;
+}
+
+.homeSlogan2
+{
+	text-align: center;
+	text-decoration: none;
+	font-size: 4em;
+	padding-top: 3px;
+}

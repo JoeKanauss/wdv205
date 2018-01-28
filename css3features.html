@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.tsexample {
+	width: 350px;
+	margin-left: 20px;
+	padding: 10px;
+	border: 1px solid;
+	text-shadow: 5px 5px #ff66b3;
+	margin-left: 10px;}
+.wbexample {
+	width: 100px;
+	margin-left: 20px;
+	border: 1px solid;
+	word-break: keep-all;}
+.invert {
+	-webkit-filter: invert(100%); filter: invert(100%);}
+
+</style>
+</head>
+<body>
+<p>Joseph Kanauss</p>
+<p>CSS 3 Features</p>
+
+<p><strong>Word-wrap:</strong> The &ldquo;word-wrap&rdquo; property of CSS3 allows long words to be able to be broken and wrapped onto a separate line, allowing it to stay within a border.</p>
+<p><strong>*Word-Break:</strong> The &ldquo;word-break&rdquo; property allows for setting line break rules, whether a hyphen is included before the line break or not.</p>
+
+<p class="wbexample">Lor-em ips-um dol-or sit a-met, co-nse-ctetur adipis-cing elit. Ma-ece-nas sit am-et elit nisi. Qui-sque sit amet lig-ula imperdiet, tem-por metus.</p>
+
+<p><strong>Text-Overflow:</strong> The &ldquo;text-overflow&rdquo; property allows for setting how non-displayed, overflowed content will be indicated, either clipped off at the boundary, or with an ellipsis.</p> 
+<p><strong>Box-Shadow:</strong> The &ldquo;box-shadow&rdquo; property allows the ability to apply shadow to elements, color the shadow, and blur the shadow.</p> 
+<p><strong>*Text-Shadow:</strong> The &ldquo;text-shadow&rdquo; property allows the ability to apply shadow to text, blur the shadow, color the shadow, and even add multiple shadows.</p> 
+
+<p class="tsexample">The quick brown fox jumped over the lazy dog.</p>
+ 
+<p><strong>Border-Radius:</strong> The &ldquo;border-radius&rdquo; allows the ability to create rounded corners on borders.</p>
+<p><strong>Color:</strong> The &ldquo;color&rdquo; property allows the ability to specify color with RGBA (Red, Green, Blue, Alpha), HSL (Hue, Saturation, Lightness), and HSLA (Hue, Saturation, Lightness, Alpha).</p>
+<p><strong>Opacity:</strong> The &ldquo;opacity&rdquo; property allows the ability to set the opacity for an RGB color value.</p>
+<p><strong>Linear-Gradient:</strong> The &ldquo;linear-gradient&rdquo; feature (used in the background property) allows the ability to easily transition from one color to another, either vertically or horizontally. Different browsers require different prefixes add to &ldquo;linear-gradient&rdquo;: &ldquo;webkit-&rdquo; (Chrome), &ldquo;-moz-&rdquo; (Firefox), &ldquo;webkit-&rdquo; (Safari), and &ldquo;-o-&rdquo; (Opera).</p> 
+<p><strong>*Filter:</strong> The &ldquo;filter&rdquo; property allows the ability to apply a filter to an image. Filters include: blur, brightness, contrast, grayscale, hue-rotate, invert, opacity, saturate, sepia, and drop-shadow. Chrome, Safari, and Opera require the &ldquo;-webkit-&rdquo; prefix in front of &ldquo;filter&rdquo;. </p>
+
+<p><img src="images/jkib.jpg" /></p>
+<p><img class="invert" src="images/jkib.jpg" /></p>
+
+</body>
+</html>

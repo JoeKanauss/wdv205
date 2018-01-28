@@ -1,0 +1,38 @@
+/*TablePhoneStyle CSS*/
+@media screen and (max-width: 480px)
+{
+
+#table 
+{
+	display: table;
+	width: 380px;
+	clear: both;
+}
+
+#row1 div
+{
+	display: table-cell;
+}
+
+#row2 div
+{
+	display: table-cell;
+}
+
+div.rowTitle
+{
+	background-color: lime;
+	border: solid 3px green;
+	padding: 5px;
+	font-weight: bold;
+	width: 20%;
+}
+
+div.cell
+{
+	border: solid 3px green;
+	padding: 5px;
+	width: 20%;
+	text-align: center;
+}
+}

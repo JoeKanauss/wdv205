@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<!--http://www.newmediacampaigns.com/blog/nicer-navigation-with-css-transitions-part-2-->
+<style>
+
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #333;
+}
+
+.nav ul:before, .nav ul:after {
+	content:"";
+	display: table;
+}
+
+.nav ul:after {
+	clear: both;
+}
+
+.nav ul > li {
+	float: left;
+	position: relative;
+}
+
+.nav a {
+	display: block;
+	padding: 10px 20px;
+	line-height: 1.2em;
+	color: #fff;
+	border-left: 1px solid #595959;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	background: #595959;
+}
+
+.nav li ul {
+	background: #273754;
+	position: absolute;
+	left: 0;
+	top: 36px;
+	z-index: 1;
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transform: perspective(100)rotate3d(1,0,0,-90deg);
+	-webkit-transform-origin: 50% 0;
+	-webkit-transition: 350ms;
+	-moz-transition: 350ms;
+	-o-transition: 350ms;
+	transition: 350ms;
+	
+}
+
+.nav li ul li {
+	width: 200px;
+}
+
+.nav li ul a {
+	border: none;
+	text-decoration: none;
+}
+
+.nav li ul a:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+.nav ul > li:hover ul {
+	max-height: 1000px;
+	-webkit-transform: perspective(100) rotate3d(0,0,0,0deg);
+}
+
+
+
+
+
+
+/*http://ianlunn.github.io/Hover/*/
+
+
+
+
+
+
+.nav2 ul {
+	list-style: none;
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.nav2 a {
+	border-left: 1px solid white;
+}
+
+.nav2 ul li {
+	display: inline-block;
+	
+}
+
+.nav2 ul li a {
+	text-decoration: none;
+	font-size: 1.25em;
+	color: white;
+	padding: 12px 13px;
+}
+
+
+/*Buzz*/ 
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.hvr-buzz:hover {
+	background-color: #273754;
+	font-weight: bold;
+}
+
+
+
+
+/* OTHER CSS */
+
+h1 {
+	text-align: center;
+	font-size: 5em;
+	text-decoration: underline;
+}
+
+h2 {
+	font-style: italic;
+	border: 1px solid black;
+}
+
+.col1 {
+	width: 45%;
+	height: 50%;
+	float: left;
+	line-height: 150%;
+}
+
+.col2 {
+	width: 45%;
+	height: 50%;
+	float: right;
+	line-height: 150%;
+}
+
+footer {
+	clear: both;
+	padding-top: 100px;
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<nav class="nav">
+	<ul>
+		<li><a href="#">Home</a>
+			<ul>
+				<li><a href="#">Section 1</a></li>
+				<li><a href="#">Section 2</a></li>
+				<li><a href="#">Section 3</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Professions</a>
+			<ul>
+				<li><a href="#">Engineer</a></li>
+				<li><a href="#">Chef</a></li>
+				<li><a href="#">Ghostbuster</a></li>
+			</ul>
+		</li>
+		<li><a href="#">States</a>
+			<ul>
+				<li><a href="#">Arkansas</a></li>
+				<li><a href="#">Louisiana </a></li>
+				<li><a href="#">Colorado</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<h1>Animals, States, and Professions</h1>
+
+<div class="col1">
+<h2>Animals and Careers</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec cursus elit. Integer id varius metus. Duis sit amet mi eget velit efficitur posuere. Aliquam eu neque magna. Nulla ipsum lectus, rhoncus non faucibus nec, vulputate sit amet lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent imperdiet est et euismod pulvinar. Vestibulum fringilla ligula nisi, eu gravida lectus laoreet vitae. Aliquam erat volutpat. Etiam volutpat vel justo sit amet consequat. Phasellus ac nunc aliquet, maximus tortor sit amet, posuere nulla.</p>
+
+<p>Curabitur auctor auctor ante in mattis. Sed lobortis scelerisque libero, et euismod magna elementum id. Vestibulum ac urna ultricies, tempor felis sed, fermentum mauris. Nulla ultricies, est vitae viverra consectetur, justo purus convallis ex, et condimentum orci dolor vitae nulla. Aenean elementum a mi non imperdiet. Aenean a feugiat metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget elit nulla. Curabitur quam tellus, faucibus eget pharetra a, interdum in urna. Vivamus nec libero enim. Suspendisse imperdiet leo nibh, sed pretium nisl interdum eu. Sed dapibus leo maximus bibendum mattis. Nullam sed lectus sed ipsum pulvinar ultricies. Maecenas euismod vestibulum quam nec rhoncus. Proin posuere semper felis eget vehicula.</p>
+
+<h2>How You Can Help</h2>
+
+<p>Cras rhoncus erat vel ligula fringilla suscipit. Maecenas sed pulvinar quam, eget posuere nunc. Nulla et felis ligula. Phasellus fringilla placerat fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer eget luctus justo, quis euismod turpis. Vestibulum maximus, nisi eget placerat blandit, erat nisi tincidunt augue, at bibendum lectus risus quis quam. Maecenas turpis nisi, malesuada id eros quis, eleifend volutpat ipsum. Pellentesque aliquet tincidunt orci, id aliquet risus.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed bibendum, arcu eget faucibus venenatis, ligula purus ultricies erat, eget dapibus odio metus id mi. Ut pharetra sapien quis nisi tristique sagittis. Vivamus nec ex eget lectus bibendum euismod. In rhoncus arcu id sapien molestie, convallis maximus erat condimentum. Nunc sapien massa, facilisis ac nibh quis, tempor tincidunt orci. Integer facilisis, nibh sit amet laoreet venenatis, ligula nisl maximus leo, nec pellentesque orci lacus in dolor. Nullam quis ante ipsum. Duis accumsan aliquam aliquet.</p>
+</div>
+
+<div class="col2">
+<h2>States and Professions</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec cursus elit. Integer id varius metus. Duis sit amet mi eget velit efficitur posuere. Aliquam eu neque magna. Nulla ipsum lectus, rhoncus non faucibus nec, vulputate sit amet lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent imperdiet est et euismod pulvinar. Vestibulum fringilla ligula nisi, eu gravida lectus laoreet vitae. Aliquam erat volutpat. Etiam volutpat vel justo sit amet consequat. Phasellus ac nunc aliquet, maximus tortor sit amet, posuere nulla.</p>
+
+<p>Curabitur auctor auctor ante in mattis. Sed lobortis scelerisque libero, et euismod magna elementum id. Vestibulum ac urna ultricies, tempor felis sed, fermentum mauris. Nulla ultricies, est vitae viverra consectetur, justo purus convallis ex, et condimentum orci dolor vitae nulla. Aenean elementum a mi non imperdiet. Aenean a feugiat metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget elit nulla. Curabitur quam tellus, faucibus eget pharetra a, interdum in urna. Vivamus nec libero enim. Suspendisse imperdiet leo nibh, sed pretium nisl interdum eu. Sed dapibus leo maximus bibendum mattis. Nullam sed lectus sed ipsum pulvinar ultricies. Maecenas euismod vestibulum quam nec rhoncus. Proin posuere semper felis eget vehicula.</p>
+
+<h2>What You Should Know</h2>
+
+<p>Cras rhoncus erat vel ligula fringilla suscipit. Maecenas sed pulvinar quam, eget posuere nunc. Nulla et felis ligula. Phasellus fringilla placerat fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer eget luctus justo, quis euismod turpis. Vestibulum maximus, nisi eget placerat blandit, erat nisi tincidunt augue, at bibendum lectus risus quis quam. Maecenas turpis nisi, malesuada id eros quis, eleifend volutpat ipsum. Pellentesque aliquet tincidunt orci, id aliquet risus.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed bibendum, arcu eget faucibus venenatis, ligula purus ultricies erat, eget dapibus odio metus id mi. Ut pharetra sapien quis nisi tristique sagittis. Vivamus nec ex eget lectus bibendum euismod. In rhoncus arcu id sapien molestie, convallis maximus erat condimentum. Nunc sapien massa, facilisis ac nibh quis, tempor tincidunt orci. Integer facilisis, nibh sit amet laoreet venenatis, ligula nisl maximus leo, nec pellentesque orci lacus in dolor. Nullam quis ante ipsum. Duis accumsan aliquam aliquet.</p>
+</div>
+
+<footer>
+<nav class="nav2">
+	<ul>
+		<li><a href="#" class="hvr-buzz">Contact</a></li>
+		<li><a href="#"class="hvr-buzz">More Information</a></li>
+		<li><a href="#"class="hvr-buzz">Careers</a></li>
+	</ul>
+</nav>
+<footer>
+</body>
+</html>

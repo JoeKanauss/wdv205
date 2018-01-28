@@ -1,0 +1,20 @@
+$bc1: #99cc00;
+$bc2: #00cc66;
+$rdeg1: 0deg;
+$rdeg2: 180deg;
+$animationName: RotateColor;
+$duration: 3s;
+$iterationCount: infinite;
+$animationDirection: alternate;
+
+@import 'keyframesRotateColorMixin';
+@import 'animationRotateColorMixin';
+
+@include keyframesRotateColor;
+
+div {
+	width: 200px;
+	height: 100px;
+	background-color: $bc1;
+	@include animationRotateColor;
+	}

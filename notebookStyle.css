@@ -1,0 +1,74 @@
+/*Notebook Size Style*/
+@media screen and (min-width: 481px) and (max-width: 959px)
+{
+#container 
+{
+	width: 480px;
+	background-color: #99ffcc;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#header
+{
+	width: 480px;
+	text-align: center;
+}
+
+#nav
+{
+	width: 480px;
+	text-align: center;
+}
+
+#nav li
+{
+	display: inline-block;
+	padding: 10px;
+	background-color: #33ff99;
+	font-size: 1.05em;
+}
+
+#nav li:hover
+{
+	background-color: #b3ffd9;
+	text-decoration: underline;
+}
+
+#colOne
+{
+	width: 230px;
+	float: left;
+	text-align: justify;
+}
+
+#colOne h1
+{
+	text-align: center;
+}
+
+#colTwo
+{
+	width: 230px;
+	float: right;
+	text-align: justify;
+}
+
+#colTwo h1
+{
+	text-align: center;
+}
+
+img
+{
+	display: block;
+	margin: 0 auto;
+}
+
+#footer
+{
+	width: 480px;
+	text-align: center;
+	clear: both;
+}
+}
